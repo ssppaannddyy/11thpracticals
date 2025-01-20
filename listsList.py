@@ -7,6 +7,6 @@ n2 = int(input("Enter number of elements to be put in second list: "))
 l2 = []
 for i in range (0,n2):
     l2.append(input())
-
-l1.append(l2)
+for i in l2:
+    l1.append(i)
 print("Updated list after appending:",l1)
